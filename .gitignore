@@ -8,8 +8,8 @@ __pycache__/
 
 # Virtual environment
 # Common names, add yours if it's different
-venv/
-.venv/
+myenv/
+.myenv
 env/
 .env/
 env.bak/
