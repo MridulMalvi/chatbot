@@ -54,7 +54,7 @@ tools = [get_stock_price, search_tool, calculator]
 
 # --- Model & Graph ---
 # Ensure you use the correct model version available to your API key
-llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash") 
+llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash") 
 
 llm_with_tools = llm.bind_tools(tools)
 
