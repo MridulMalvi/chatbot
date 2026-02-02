@@ -1,4 +1,4 @@
-# 🤖 Gemini-Powered Stateful Chatbot
+# 🤖 AI-Powered Stateful Chatbot
 
 A modern, stateful chatbot application built with **Streamlit**, **LangChain**, and **Google Gemini**. This assistant features persistent chat history and a modular backend using **LangGraph** to manage conversation threads.
 
