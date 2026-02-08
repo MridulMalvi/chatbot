@@ -43,7 +43,7 @@ Create a .env file in the root directory and add your API key:
 ````
 GOOGLE_API_KEY=your_gemini_api_key_here
 ````
-4. Run the Application
+4. Run the Application 
 ````
 streamlit run app.py
 ````
@@ -51,4 +51,4 @@ streamlit run app.py
 #### ->app.py: The main Streamlit interface, handling UI logic and session state.
 #### ->backend.py: Contains the chatbot logic, LLM initialization, and state graph.
 #### ->requirements.txt: Lists all Python libraries required for the project.
-#### ->.env: Stores sensitive API keys (do not commit to GitHub).
+#### ->.env: Stores sensitive API keys .
