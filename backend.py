@@ -142,10 +142,7 @@ def get_stock_price(symbol: str) -> str:
     api_key = os.getenv("ALPHAVANTAGE_API_KEY")
     if not api_key:
         return "Error: API Key not configured."
-<<<<<<< HEAD
-=======
-        
->>>>>>> 1f4185ec8881a0ead85f38a267df67aec4f0e6b0
+
     url = f"https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol={symbol}&apikey={api_key}"
     try:
         r = requests.get(url)
@@ -181,8 +178,7 @@ def rag_tool(query: str, thread_id: Optional[str] = None) -> dict:
 tools = [get_stock_price, search_tool, calculator, rag_tool]
 
 # --- Model & Graph ---
-<<<<<<< HEAD
-=======
+
 # Ensure you use the correct model version available to your API key
 llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash") 
 >>>>>>> 1f4185ec8881a0ead85f38a267df67aec4f0e6b0
